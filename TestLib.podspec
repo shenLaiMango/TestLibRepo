@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 # 名称、版本号、概述
   s.name             = 'TestLib'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of TestLib.'
 
 # This description is used to generate tags and improve search results.
