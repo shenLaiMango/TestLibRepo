@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
                        DESC
 
 # 主页、截图、license证书、作者信息、源代码地址、社交地址
-  s.homepage         = 'https://github.com/iOS-chenshiyou/TestLib'
+  s.homepage         = 'https://github.com/shenLaiMango/TestLibRepo.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iOS-chenshiyou' => 'ios' }
-  s.source           = { :git => 'https://github.com/iOS-chenshiyou/TestLib.git', :tag => s.version.to_s }
+  s.author           = { 'iOS-chenshiyou' => '798411876@qq.com' }
+  s.source           = { :git => 'https://github.com/shenLaiMango/TestLibRepo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 # iOS版本
