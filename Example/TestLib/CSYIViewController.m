@@ -7,6 +7,7 @@
 //
 
 #import "CSYIViewController.h"
+#import <TestLib/TestClass.h>
 
 @interface CSYIViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    TestClass *testA = [[TestClass alloc]init];
+    [testA ClassA];
+    NSLog(@"1111------00");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

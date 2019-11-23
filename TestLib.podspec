@@ -7,8 +7,9 @@
 #
 
 Pod::Spec.new do |s|
+# 名称、版本号、概述
   s.name             = 'TestLib'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of TestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -17,10 +18,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
+# 详细描述
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
+# 主页、截图、license证书、作者信息、源代码地址、社交地址
   s.homepage         = 'https://github.com/iOS-chenshiyou/TestLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -28,6 +31,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/iOS-chenshiyou/TestLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+# iOS版本
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TestLib/Classes/**/*'
